@@ -1,3 +1,0 @@
-install: 
-  - FILE="-Dfile=testsdk-1.0.4.aar" 
-  - mvn install:install-file $FILE  -DgroupId=com.github.devicesynergytask  -DartifactId=testsdk  -Dversion=1.0.4  -Dpackaging=aar  -DpomFile=testsdk-1.0.4.pom
